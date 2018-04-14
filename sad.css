@@ -1,0 +1,14 @@
+img{ 
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 420px;
+	/*margin-bottom: auto;*/
+	width: 50%;
+    transform-origin:50% 50%;
+    animation:2s rotateRight infinite linear; 
+}
+
+@keyframes rotateRight{
+    100%{ transform:rotate(360deg); }
+}
